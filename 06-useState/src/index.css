@@ -1,0 +1,21 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html , body{
+ height: 100%;
+ width: 100%;
+}
+button{
+  margin-top: 10px;
+  background-color: red;
+  border-radius: 5px;
+  border-color: yellow;
+  padding: 5px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold ;
+}
+body{
+  background-color: wheat;
+}

@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html , body{
+ height: 100%;
+ width: 100%;
+}
+body{
+  background-color: #222;
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CARD{
+
+  width: 300px;
+  border: 10px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: brown;
+}
+
+.CARD button{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.CARD p{
+  margin: 20px 0px;
+}
+
+.CARD img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
